@@ -29,7 +29,7 @@ jobs:
     - name: Display SoftUni username
       run: echo 'lyuboleshtanski'
 
-execute-ui-test:
+ execute-ui-test:
     needs: build-and-unit-test
     runs-on: ubuntu-latest
 
